@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Project Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Project Files\Routine">
+      <UniqueIdentifier>{5efd1c6f-ba82-4b37-906a-109ef3f4a33c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Routine\Header">
+      <UniqueIdentifier>{6608f639-f955-4d62-9af7-d169b16062c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Utils">
+      <UniqueIdentifier>{2b8e7768-83e6-4f3f-b2d0-38354815f5b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Utils\Log">
+      <UniqueIdentifier>{a9e04fb6-865f-45d9-b692-771956bf2aca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Utils\Common">
+      <UniqueIdentifier>{11f4fe10-6227-4e38-906a-07c7aa7f30fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Utils\Hash">
+      <UniqueIdentifier>{6b684570-8c32-4c44-9717-1cd2f7d3b61e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\API">
+      <UniqueIdentifier>{f213bc29-965d-4028-8959-fa6f1eae81b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\API\Header">
+      <UniqueIdentifier>{b7a27d00-52f8-4110-8b7d-078998140fe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Process">
+      <UniqueIdentifier>{7fe7ecdc-b150-45da-af5b-052d0b2ed0f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Process\Safe">
+      <UniqueIdentifier>{fe670000-98e9-44d1-862d-688293f887bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Process\_Headers">
+      <UniqueIdentifier>{032608a9-f8f5-48ca-b9cd-742728db465f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Process\Memory">
+      <UniqueIdentifier>{d110bc01-899c-4376-91c2-0036d133fe21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Process\Fast">
+      <UniqueIdentifier>{f10aed91-8945-45a8-9955-18a0511abe64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Process\Helper">
+      <UniqueIdentifier>{c4c94973-6a49-4005-8766-ae029e213883}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Hax">
+      <UniqueIdentifier>{210c6e06-b40b-4691-b139-67a98ea3c996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Utils\Security">
+      <UniqueIdentifier>{c2f95899-3a1d-42ff-92bd-3ac5d0dfb438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Utils\_Headers">
+      <UniqueIdentifier>{39ae3d40-7abe-4da3-b4e9-253e6d28e341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Process\Memory\Header">
+      <UniqueIdentifier>{c1783d78-c7ae-4670-92a4-25f8b6085657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Hax\Header">
+      <UniqueIdentifier>{2378de0d-868b-4f23-a0d1-4df9a9d3f3fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Hax\CSGO">
+      <UniqueIdentifier>{ffa4c38e-1c6d-4266-ab7e-79897d952efc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Hax\CSGO\Hax_Modules">
+      <UniqueIdentifier>{b2e4e21e-e233-4dff-9a7e-8143d9f0ebee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Hax\CSGO\Hax_Modules\Header">
+      <UniqueIdentifier>{e6ba5cdf-0532-44b5-b353-bf9f52bcecce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Process Watcher">
+      <UniqueIdentifier>{da09239d-d2d2-4417-b8ac-ae0af7e5a7aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Hax\CSGO\Utils">
+      <UniqueIdentifier>{dc528fe4-5684-4900-a75f-850030ae00e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Process Watcher\Header">
+      <UniqueIdentifier>{fd3f2e66-4525-4605-b9f9-fd11caa37d49}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Project Files\Routine</Filter>
+    </ClCompile>
+    <ClCompile Include="HaxControl.cpp">
+      <Filter>Project Files\Routine</Filter>
+    </ClCompile>
+    <ClCompile Include="HaxAppMain.cpp">
+      <Filter>Project Files\Routine</Filter>
+    </ClCompile>
+    <ClCompile Include="spdlog_wrapper.cpp">
+      <Filter>Project Files\Utils\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessName.cpp">
+      <Filter>Project Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Elevation.cpp">
+      <Filter>Project Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions.cpp">
+      <Filter>Project Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniDump.cpp">
+      <Filter>Project Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicWinAPI.cpp">
+      <Filter>Project Files\API</Filter>
+    </ClCompile>
+    <ClCompile Include="SafeThreadHandle.cpp">
+      <Filter>Project Files\Process\Safe</Filter>
+    </ClCompile>
+    <ClCompile Include="SafeProcessHandle.cpp">
+      <Filter>Project Files\Process\Safe</Filter>
+    </ClCompile>
+    <ClCompile Include="HijackProcessHandle.cpp">
+      <Filter>Project Files\Process\Safe</Filter>
+    </ClCompile>
+    <ClCompile Include="PatternTemplate.cpp">
+      <Filter>Project Files\Process\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="PatternScan.cpp">
+      <Filter>Project Files\Process\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="FastMemoryHelper.cpp">
+      <Filter>Project Files\Process\Fast</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryHelper.cpp">
+      <Filter>Project Files\Process\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleHelper.cpp">
+      <Filter>Project Files\Process\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessHelper.cpp">
+      <Filter>Project Files\Process\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="Hax_BunnyHop.cpp">
+      <Filter>Project Files\Hax\CSGO\Hax_Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Hax_GlowESP.cpp">
+      <Filter>Project Files\Hax\CSGO\Hax_Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Hax_NoRecoil.cpp">
+      <Filter>Project Files\Hax\CSGO\Hax_Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Hax_TriggerBot.cpp">
+      <Filter>Project Files\Hax\CSGO\Hax_Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="HaxModuleMain.cpp">
+      <Filter>Project Files\Hax</Filter>
+    </ClCompile>
+    <ClCompile Include="DACLRules.cpp">
+      <Filter>Project Files\Utils\Security</Filter>
+    </ClCompile>
+    <ClCompile Include="SelfSecurity.cpp">
+      <Filter>Project Files\Utils\Security</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiVirtual.cpp">
+      <Filter>Project Files\Utils\Security</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiBadException.cpp">
+      <Filter>Project Files\Utils\Security</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiEmulation.cpp">
+      <Filter>Project Files\Utils\Security</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug.cpp">
+      <Filter>Project Files\Utils\Security</Filter>
+    </ClCompile>
+    <ClCompile Include="EnumHandles.cpp">
+      <Filter>Project Files\Utils\Security</Filter>
+    </ClCompile>
+    <ClCompile Include="NetVarManager.cpp">
+      <Filter>Project Files\Process\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="HaxConfigParser.cpp">
+      <Filter>Project Files\Hax</Filter>
+    </ClCompile>
+    <ClCompile Include="HaxData.cpp">
+      <Filter>Project Files\Hax</Filter>
+    </ClCompile>
+    <ClCompile Include="HaxCSGOData.cpp">
+      <Filter>Project Files\Hax\CSGO</Filter>
+    </ClCompile>
+    <ClCompile Include="HaxCSGOSettings.cpp">
+      <Filter>Project Files\Hax\CSGO</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessWatcher_WMI.cpp">
+      <Filter>Project Files\Process Watcher</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessWatcher_ETW.cpp">
+      <Filter>Project Files\Process Watcher</Filter>
+    </ClCompile>
+    <ClCompile Include="Hax_CSGO_Misc.cpp">
+      <Filter>Project Files\Hax\CSGO\Hax_Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="HaxCSGOManager.cpp">
+      <Filter>Project Files\Hax\CSGO</Filter>
+    </ClCompile>
+    <ClCompile Include="Hax_AimBot.cpp">
+      <Filter>Project Files\Hax\CSGO\Hax_Modules</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>Project Files\Routine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="HaxMain.h">
+      <Filter>Project Files\Routine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="HaxControl.h">
+      <Filter>Project Files\Routine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicLog.h">
+      <Filter>Project Files\Utils\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog_wrapper.h">
+      <Filter>Project Files\Utils\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>Project Files\Utils\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="XOR.h">
+      <Filter>Project Files\Utils\Hash</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Project Files\Utils\_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="VersionHelpers.h">
+      <Filter>Project Files\Utils\_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DACLRules.h">
+      <Filter>Project Files\Utils\_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessName.h">
+      <Filter>Project Files\Utils\_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Elevation.h">
+      <Filter>Project Files\Utils\_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>Project Files\Utils\_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniDump.h">
+      <Filter>Project Files\Utils\_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows_Structs.h">
+      <Filter>Project Files\API\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="WinAPI_Typedefs.h">
+      <Filter>Project Files\API\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicWinAPI.h">
+      <Filter>Project Files\API\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="HijackProcessHandle.h">
+      <Filter>Project Files\Process\_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryHelper.h">
+      <Filter>Project Files\Process\_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleHelper.h">
+      <Filter>Project Files\Process\_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PatternScan.h">
+      <Filter>Project Files\Process\_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PatternTemplate.h">
+      <Filter>Project Files\Process\_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessHelper.h">
+      <Filter>Project Files\Process\_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SafeHandle.h">
+      <Filter>Project Files\Process\_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="FastMemoryHelper.h">
+      <Filter>Project Files\Process\Fast</Filter>
+    </ClInclude>
+    <ClInclude Include="Antis.h">
+      <Filter>Project Files\Utils\_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVarManager.h">
+      <Filter>Project Files\Process\Memory\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Project Files\Process\Memory\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Hax_GlowESP.h">
+      <Filter>Project Files\Hax\CSGO\Hax_Modules\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TrimStr.h">
+      <Filter>Project Files\Utils\_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Hax_BunnyHop.h">
+      <Filter>Project Files\Hax\CSGO\Hax_Modules\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="HaxConfigParser.h">
+      <Filter>Project Files\Hax\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="HaxModuleIndex.h">
+      <Filter>Project Files\Hax\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="HaxData.h">
+      <Filter>Project Files\Hax\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Hax_TriggerBot.h">
+      <Filter>Project Files\Hax\CSGO\Hax_Modules\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Hax_NoRecoil.h">
+      <Filter>Project Files\Hax\CSGO\Hax_Modules\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Hax_CSGO_Misc.h">
+      <Filter>Project Files\Hax\CSGO\Hax_Modules\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Hax_CSGO_Manager.h">
+      <Filter>Project Files\Hax\CSGO\Hax_Modules\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ETW.h">
+      <Filter>Project Files\Process Watcher\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="WMI.h">
+      <Filter>Project Files\Process Watcher\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4.h">
+      <Filter>Project Files\Hax\CSGO\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Project Files\Hax\CSGO\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Project Files\Hax\CSGO\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Hax_AimBot.h">
+      <Filter>Project Files\Hax\CSGO\Hax_Modules\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="HitBox.h">
+      <Filter>Project Files\Hax\CSGO\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix3x4.h">
+      <Filter>Project Files\Hax\CSGO\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Md5.h">
+      <Filter>Project Files\Utils\Hash</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
